@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <header>Conversor de Moedas</header>
+        <form action="#">
+            <div class="valor">
+                <label for="input">Valor</label><br>
+                <input type="number" id="input" value="1">
+            </div>
+            <div class="lista-drop">
+                <div class="converter-de">
+                    <p>Converter de</p>
+                    <div class="select-box">
+                        <img src="https://flagsapi.com/BR/flat/64.png" alt="bandeira">
+                        <select></select>
+                    </div>
+                </div>
+                <i>⇄</i>
+                <div class="converter-para">
+                    <p>Para</p>
+                    <div class="select-box">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="bandeira">
+                        <select></select>
+                    </div>
+                </div>
+            </div>
+            <div class="taxa-conversao"></div>
+            <button>Converter moeda</button>
+        </form>
+    </div>
+    
+    <script src="js/paises.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
